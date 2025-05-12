@@ -1,6 +1,27 @@
 // This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
 // https://nextjs.org/learn/dashboard-app/fetching-data
 
+const users = [
+  {
+    id: '1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6',
+    name: 'Admin User',
+    email: 'admin@example.com',
+    password: 'admin123', // será hasheado no seed
+  },
+  {
+    id: '7f8e9d6c-5b4a-3a2f-1e0d-c9b8a7d6e5f4',
+    name: 'Jane Doe',
+    email: 'jane@example.com',
+    password: 'password123',
+  },
+  {
+    id: '0a1b2c3d-4e5f-6g7h-8i9j-0k1l2m3n4o5p',
+    name: 'John Smith',
+    email: 'john@example.com',
+    password: '123456',
+  },
+];
+
 const customers = [
   {
     id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
